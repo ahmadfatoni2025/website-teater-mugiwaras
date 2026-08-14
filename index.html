@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rekrutmen Anggota Baru | UKM Teater Mugiwaras</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700;900&family=Lora:ital,wght@0,400;0,700;1,400&family=Montserrat:wght@400;600;700;800;900&display=swap" rel="stylesheet" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <style>
+        /* ===== TYPEWRITER ===== */
+        .typewriter-text {
+            border-right: 3px solid #ffffff;
+            animation: blink 0.75s step-end infinite;
+            white-space: pre-wrap;
+            color: #ffffff;
+        }
+        @keyframes blink {
+            50% { border-color: transparent; }
+        }
+        /* Fade In Animasi untuk Galeri */
+        @keyframes fadeInGallery {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- 0. Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-brand">
+                <img src="images/logo.png" alt="Logo Mugiwaras" class="brand-img" />
+                <div class="brand-text">
+                    <span class="brand-title">UKM Teater Mugiwaras</span>
+                    <span class="brand-tagline">STIMIK Tunas Bangsa Banjarnegara</span>
+                </div>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#beranda" class="nav-item active">Home</a></li>
+                <li><a href="#tentang" class="nav-item scroll-link">Tentang</a></li>
+                <li><a href="#divisi" class="nav-item scroll-link">Divisi</a></li>
+                <li><a href="#galeri" class="nav-item scroll-link">Galeri</a></li>
+                <li><a href="#rekrutmen" class="nav-item scroll-link">Pendaftaran</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- 1. Hero Section -->
+    <header class="hero" id="beranda">
+        <div class="hero-overlay">
+            <div class="container text-center hero-content" data-aos="fade-up" data-aos-duration="1500">
+                <h1 class="hero-massive-title">UKM Teater<br />Mugiwaras</h1>
+                <h2 class="hero-subtitle">
+                    Ruang Kreatif Untuk <span id="typewriter-subtitle" class="typewriter-text"></span>
+                </h2>
+                <p class="hero-desc">
+                    Teater Mugiwaras sebagai wadah eksplorasi seni di STIMIK Tunas Bangsa dengan menciptakan kritik sosial disuarakan, dan kedalaman filosofis disucikan menjadi sebuah maha karya yang sarat makna.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#tentang" class="btn-hero-solid scroll-link">Jelajahi Kami</a>
+                    <a href="#rekrutmen" class="btn-hero-outline scroll-link">Daftar Sekarang</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- 2. Tentang Kami -->
+    <section id="tentang" class="section">
+        <div class="container text-center">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">Tentang Kami</h2>
+                <div class="divider"></div>
+            </div>
+            <div class="tentang-content" data-aos="fade-up" data-aos-delay="200">
+                <p class="section-desc lead-text">Unit Kegiatan Mahasiswa (UKM) Teater Mugiwaras adalah wadah ekspresi seni di STIMIK Tunas Bangsa yang mendalami bidang teater </p>
+                <p class="section-desc">Sebuah nalar, kritik sosial, dan kedalaman filosofis disucikan menjadi pertunjukan yang sarat makna. Kami meleburkan seni peran, sastra, dan tata panggung menjadi satu harmoni. Setiap peluh adalah dialog, dan setiap sorot lampu adalah saksi bagaimana realitas dikuliti untuk disajikan kembali dengan penuh estetika.</p>
+
+                <div class="stats-container">
+                    <div class="stat-item" data-aos="zoom-in" data-aos-delay="100">
+                        <div class="stat-icon"><i class="fa-solid fa-masks-theater"></i></div>
+                        <h3 class="counter" data-target="10">0</h3>
+                        <p>Pementasan</p>
+                    </div>
+                    <div class="stat-item" data-aos="zoom-in" data-aos-delay="200">
+                        <div class="stat-icon"><i class="fa-solid fa-people-group"></i></div>
+                        <h3 class="counter" data-target="6">0</h3>
+                        <p>Divisi Berkarya</p>
+                    </div>
+                    <div class="stat-item" data-aos="zoom-in" data-aos-delay="300">
+                        <div class="stat-icon"><i class="fa-solid fa-scroll"></i></div>
+                        <h3 class="counter" data-target="20">0</h3>
+                        <p>Lakon Tercipta</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 3. Divisi -->
+    <section id="divisi" class="section">
+        <!-- Efek Cinematic Terang (Sorot Lampu Putih) -->
+        <div class="divisi-glow-effect"></div>
+        
+        <!-- Partikel Debu Gelap Melayang -->
+        <div class="dust-particle dust-dark p-1"></div>
+        <div class="dust-particle dust-dark p-2"></div>
+        <div class="dust-particle dust-dark p-3"></div>
+        <div class="dust-particle dust-dark p-4"></div>
+        <div class="dust-particle dust-dark p-5"></div>
+        <div class="dust-particle dust-dark p-6"></div>
+        <div class="dust-particle dust-dark p-7"></div>
+        <div class="dust-particle dust-dark p-8"></div>
+        <div class="dust-particle dust-dark p-9"></div>
+        <div class="dust-particle dust-dark p-10"></div>
+        <div class="dust-particle dust-dark p-11"></div>
+        <div class="dust-particle dust-dark p-12"></div>
+        <div class="dust-particle dust-dark p-13"></div>
+        <div class="dust-particle dust-dark p-14"></div>
+        <div class="dust-particle dust-dark p-15"></div>
+
+        <div class="container relative z-10">
+            <div class="section-header text-center" data-aos="fade-up">
+                <h2 class="section-title">Ruang Belajar &amp; Eksplorasi</h2>
+                <div class="divider"></div>
+                <p class="section-desc text-center mb-50">Temukan titik di mana potensimu akan memancarkan pijar paling terang di atas panggung.</p>
+            </div>
+
+            <div class="grid">
+                <div class="card" data-divisi="Keaktoran" data-aos="fade-up" data-aos-delay="100">
+                    <span class="card-badge">01</span>
+                    <div class="card-icon"><i class="fa-solid fa-masks-theater"></i></div>
+                    <h3>Keaktoran</h3>
+                    <div class="card-sub">Eksplorasi Karakter</div>
+                    <p>Menyelami kedalaman emosi untuk menghidupkan jiwa karakter dalam naskah.</p>
+                    <span class="read-more">Baca Detail <i class="fa-solid fa-arrow-right"></i></span>
+                </div>
+
+                <div class="card" data-divisi="Penyutradaraan" data-aos="fade-up" data-aos-delay="200">
+                    <span class="card-badge">02</span>
+                    <div class="card-icon"><i class="fa-solid fa-clapperboard"></i></div>
+                    <h3>Penyutradaraan</h3>
+                    <div class="card-sub">Visi Artistik</div>
+                    <p> Rancang visi artistik yang tajam dan satukan setiap elemen menjadi satu napas pertunjukan.</p>
+                    <span class="read-more">Baca Detail <i class="fa-solid fa-arrow-right"></i></span>
+                </div>
+
+                <div class="card" data-divisi="Naskah" data-aos="fade-up" data-aos-delay="300">
+                    <span class="card-badge">03</span>
+                    <div class="card-icon"><i class="fa-solid fa-pen-nib"></i></div>
+                    <h3>Penulisan Naskah</h3>
+                    <div class="card-sub">Sastra &amp; Dialog</div>
+                    <p>Gunakan kata sebagai senjatamu. Rajut gagasan dan kritik sosial menjadi dialog puitis yang akan menggetarkan relung hati.</p>
+                    <span class="read-more">Baca Detail <i class="fa-solid fa-arrow-right"></i></span>
+                </div>
+
+                <div class="card" data-divisi="Artistik" data-aos="fade-up" data-aos-delay="400">
+                    <span class="card-badge">04</span>
+                    <div class="card-icon"><i class="fa-solid fa-lightbulb"></i></div>
+                    <h3>Artistik &amp; Properti</h3>
+                    <div class="card-sub">Tata Cahaya &amp; Ilusi</div>
+                    <p>Ciptakan ruang ilusi. Rancang tata cahaya dramatis dan bangun properti panggung multifungsi yang sarat akan makna visual.</p>
+                    <span class="read-more">Baca Detail <i class="fa-solid fa-arrow-right"></i></span>
+                </div>
+
+                <div class="card" data-divisi="Wardrobe" data-aos="fade-up" data-aos-delay="500">
+                    <span class="card-badge">05</span>
+                    <div class="card-icon"><i class="fa-solid fa-shirt"></i></div>
+                    <h3>Wardrobe &amp; Makeup</h3>
+                    <div class="card-sub">Tata Rias &amp; Kostum</div>
+                    <p>Beri nyawa pada setiap peran melalui warna, tekstur kain, dan tata rias yang mempertegas identitas sang tokoh.</p>
+                    <span class="read-more">Baca Detail <i class="fa-solid fa-arrow-right"></i></span>
+                </div>
+
+                <div class="card" data-divisi="Manajemen" data-aos="fade-up" data-aos-delay="600">
+                    <span class="card-badge">06</span>
+                    <div class="card-icon"><i class="fa-solid fa-users-gear"></i></div>
+                    <h3>Manajemen Produksi</h3>
+                    <div class="card-sub">Strategi &amp; Publikasi</div>
+                    <p>Jadilah denyut nadi di balik layar. Pastikan perizinan, pendanaan, dan strategi publikasi berjalan sempurna.</p>
+                    <span class="read-more">Baca Detail <i class="fa-solid fa-arrow-right"></i></span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 4. GALERI -->
+    <!-- 4. GALERI -->
+    <section id="galeri" class="section">
+        <div class="container text-center">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">Galeri Pementasan</h2>
+                <div class="divider"></div>
+                <p class="section-desc">Setiap bingkai adalah saksi bisu dari proses, peluh, dan air mata yang kami tuangkan demi menghidupkan panggung.</p>
+            </div>
+
+            <!-- Kontainer Grid Galeri (Otomatis digenerate oleh JavaScript) -->
+            <div class="gallery-grid" id="mainGalleryGrid" data-aos="fade-up" data-aos-delay="100"></div>
+
+            <div class="mt-40" data-aos="fade-up" id="btnLoadMoreContainer">
+                <button class="btn-gallery-expand" id="btnLoadMore">
+                    <span>Lihat Selengkapnya</span>
+                    <i class="fa-solid fa-arrow-down"></i>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== LIGHTBOX GALERI ===== -->
+    <div id="lightboxOverlay" class="lightbox-overlay" onclick="closeLightbox(event)">
+        <div class="lightbox-content" onclick="event.stopPropagation();">
+            <button class="lightbox-close" onclick="closeLightbox()"><i class="fa-regular fa-circle-xmark"></i></button>
+            <div class="lightbox-grid" id="dynamicLightboxGrid">
+                <!-- Diisi oleh JS -->
+            </div>
+        </div>
+    </div>
+
+    <!-- 5. Call to Action -->
+    <section id="rekrutmen" class="section bg-black text-center cta-section">
+        <div class="cta-animated-bg"></div>
+        <div class="cta-glow-effect"></div> 
+        
+        <!-- Partikel Debu Terang Melayang (Diperbanyak hingga 15 buah) -->
+        <div class="dust-particle dust-light p-1"></div>
+        <div class="dust-particle dust-light p-2"></div>
+        <div class="dust-particle dust-light p-3"></div>
+        <div class="dust-particle dust-light p-4"></div>
+        <div class="dust-particle dust-light p-5"></div>
+        <div class="dust-particle dust-light p-6"></div>
+        <div class="dust-particle dust-light p-7"></div>
+        <div class="dust-particle dust-light p-8"></div>
+        <div class="dust-particle dust-light p-9"></div>
+        <div class="dust-particle dust-light p-10"></div>
+        <div class="dust-particle dust-light p-11"></div>
+        <div class="dust-particle dust-light p-12"></div>
+        <div class="dust-particle dust-light p-13"></div>
+        <div class="dust-particle dust-light p-14"></div>
+        <div class="dust-particle dust-light p-15"></div>
+
+        <div class="container relative z-10" data-aos="fade-up">
+            <h2 class="cta-dynamic-text">LAKON BARU SEGERA DIMULAI</h2>
+            <p class="section-desc text-gray" style="max-width: 700px; margin: 0 auto;">Layar akan segera diangkat. Ambil peranmu dan mari merajut cerita bersama kami. Tiket perjalananmu dimulai dari sini.</p>
+            <div class="cta-box mt-40">
+                <a href="https://forms.gle/XFdkaAqsGDbMXaHN7" target="_blank" class="btn-primary-inverse pulse-btn">Isi Formulir Pendaftaran Sekarang</a>
+            </div>
+            <div class="social-media">
+                <p>Menyapa Kami di Balik Layar:</p>
+                <div class="socmed-icons-container">
+                    <a href="https://www.instagram.com/teater.mugiwaras_?igsh=NWQweTJ2d2FkcTFu" target="_blank" class="socmed-icon" title="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://wa.me/6283144954104" target="_blank" class="socmed-icon" title="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+                    <a href="mailto:ukmteatermugiwaras@gmail.com" target="_blank" class="socmed-icon" title="Email"><i class="fa-regular fa-envelope"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 6. Footer -->
+    <footer>
+        <div class="container text-center">
+            <div class="footer-logos mb-20">
+                <img src="images/logo-stimik.png" alt="Logo STIMIK Tunas Bangsa" class="footer-logo-img" />
+                <img src="images/logo.png" alt="Logo Teater Mugiwaras" class="footer-logo-img" />
+            </div>
+            <p>&copy; 2026 UKM Teater Mugiwaras. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <!-- MODAL DIVISI -->
+    <div id="divisiModal" class="modal">
+        <div class="modal-content text-center">
+            <span class="close-btn"><i class="fa-solid fa-xmark"></i></span>
+            <div class="modal-icon" id="modalIcon"><i class="fa-solid fa-masks-theater"></i></div>
+            <h2 id="modalTitle" class="modal-title">Judul</h2>
+            <div class="divider mx-auto mb-20"></div>
+            <p id="modalDesc" class="modal-desc">Deskripsi detail...</p>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        window.addEventListener('scroll', function() {
+            const navbar = document.querySelector('.navbar');
+            if (window.scrollY > 50) {
+                navbar.classList.add('scrolled');
+            } else {
+                navbar.classList.remove('scrolled');
+            }
+        });
+
+        AOS.init({ once: true, offset: 100, duration: 800 });
+
+        const wordsToType = ["Aktor.", "Sutradara.", "Penulis Naskah.", "Penata Artistik.", "Pencipta Rasa."];
+        const typeWriterElement = document.getElementById("typewriter-subtitle");
+        let wordIndex = 0, charIndex = 0, isDeleting = false;
+
+        function typeWriter() {
+            const currentWord = wordsToType[wordIndex];
+            if (isDeleting) {
+                typeWriterElement.textContent = currentWord.substring(0, charIndex - 1);
+                charIndex--;
+            } else {
+                typeWriterElement.textContent = currentWord.substring(0, charIndex + 1);
+                charIndex++;
+            }
+            let typeSpeed = isDeleting ? 40 : 100;
+            if (!isDeleting && charIndex === currentWord.length) {
+                typeSpeed = 2000;
+                isDeleting = true;
+            } else if (isDeleting && charIndex === 0) {
+                isDeleting = false;
+                wordIndex = (wordIndex + 1) % wordsToType.length;
+                typeSpeed = 500;
+            }
+            setTimeout(typeWriter, typeSpeed);
+        }
+        window.onload = function() {
+            setTimeout(typeWriter, 800);
+        };
+
+        document.querySelectorAll('.scroll-link').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({ behavior: 'smooth' });
+            });
+        });
+
+        const counters = document.querySelectorAll('.counter');
+        const speed = 100;
+        let counterStarted = false;
+
+        function startCounters() {
+            counters.forEach(counter => {
+                const updateCount = () => {
+                    const target = +counter.getAttribute('data-target');
+                    const count = +counter.innerText;
+                    const inc = target / speed;
+                    if (count < target) {
+                        counter.innerText = Math.ceil(count + inc);
+                        setTimeout(updateCount, 30);
+                    } else {
+                        counter.innerText = target + "+";
+                    }
+                };
+                updateCount();
+            });
+        }
+
+        window.addEventListener('scroll', () => {
+            const statsSection = document.querySelector('.stats-container');
+            if (statsSection) {
+                const sectionPos = statsSection.getBoundingClientRect().top;
+                const screenPos = window.innerHeight;
+                if (sectionPos < screenPos && !counterStarted) {
+                    startCounters();
+                    counterStarted = true;
+                }
+            }
+        });
+
+        const detailDivisi = {
+            'Keaktoran': {
+                teks: 'Di sini, tubuhmu adalah kanvas dan suaramu adalah kuas. Kamu akan dilatih untuk meleburkan ego, meminjamkan ragamu pada karakter, dan membawakan emosi yang menyentuh ruang terdalam penonton.',
+                ikon: '<i class="fa-solid fa-masks-theater"></i>'
+            },
+            'Penyutradaraan': {
+                teks: 'Sang nahkoda panggung. Kamu akan belajar menerjemahkan teks menjadi realitas panggung, merancang visi artistik, dan menyatukan seluruh elemen menjadi satu napas pertunjukan.',
+                ikon: '<i class="fa-solid fa-clapperboard"></i>'
+            },
+            'Naskah': {
+                teks: 'Kata adalah senjatamu. Kamu akan menyelami kedalaman makna, menyusun konflik, dan merangkai dialog-dialog puitis yang akan dihidupkan oleh para aktor di atas panggung.',
+                ikon: '<i class="fa-solid fa-pen-nib"></i>'
+            },
+            'Artistik': {
+                teks: 'Ruang bagi pencipta ilusi. Kamu bertugas merancang tata cahaya yang dramatis serta membangun bentuk properti panggung multifungsi yang tidak hanya estetik, namun sarat akan makna.',
+                ikon: '<i class="fa-solid fa-lightbulb"></i>'
+            },
+            'Wardrobe': {
+                teks: 'Karakter hidup melalui apa yang mereka kenakan. Kamu akan bereksperimen dengan warna, tekstur kain, dan tata rias wajah untuk mempertegas identitas setiap tokoh dalam cerita.',
+                ikon: '<i class="fa-solid fa-shirt"></i>'
+            },
+            'Manajemen': {
+                teks: 'Napas yang menjaga teater tetap hidup di belakang layar. Kamu akan memastikan manajemen waktu, perizinan, pendanaan, dan strategi publikasi berjalan brilian.',
+                ikon: '<i class="fa-solid fa-users-gear"></i>'
+            }
+        };
+
+        const modal = document.getElementById("divisiModal");
+        const closeBtn = document.querySelector(".close-btn");
+        const modalTitle = document.getElementById("modalTitle");
+        const modalDesc = document.getElementById("modalDesc");
+        const modalIcon = document.getElementById("modalIcon");
+
+        document.querySelectorAll('.card').forEach(card => {
+            card.addEventListener('click', function(e) {
+                const divisi = this.getAttribute('data-divisi');
+                modalTitle.innerText = this.querySelector('h3').innerText;
+                modalDesc.innerText = detailDivisi[divisi].teks;
+                modalIcon.innerHTML = detailDivisi[divisi].ikon;
+                modal.classList.add('show-modal');
+                document.body.style.overflow = 'hidden';
+            });
+        });
+
+        const closeModal = () => {
+            modal.classList.remove('show-modal');
+            document.body.style.overflow = 'auto';
+        };
+
+        closeBtn.addEventListener('click', closeModal);
+        window.addEventListener('click', (e) => {
+            if (e.target === modal) closeModal();
+        });
+        document.addEventListener('keydown', (e) => {
+            if (e.key === "Escape" && modal.classList.contains('show-modal')) {
+                closeModal();
+            }
+        });
+
+        // ===== AUTOMATIC MULTI-FORMAT GALLERY LOGIC (UP TO 50 IMAGES) =====
+        const totalGalleryCount = 50;
+        const supportedExtensions = ['jpg', 'jpeg', 'png', 'webp', 'JPG', 'PNG', 'JPEG', 'WEBP'];
+        
+        // Judul/Keterangan khusus per nomor foto (bisa disesuaikan jika ingin judul unik)
+        const customCaptions = {
+            1: "Angkatan 2025/2026",
+            2: "Perjumpaan",
+            3: "Peringatan Bulan Bahasa 2024",
+            4: "Perform Karahayon Duwe Gawe",
+            5: "Peringatan Hari Pahlawan",
+            6: "Workshop Teater Pengabdian Kepada Masyarakat",
+            7: "Hari Teater Dunia 2025",
+            8: "HTD 2024",
+            9: "Workshop Teater Bara 2025",
+            10: "Workshop Teater Bara 2025",
+            11: "Pengabdian Kepada Masyarakat",
+            12: "Perjumpaan",
+            13: "After Pentas",
+            14: "Pemutaran Film Layar Klangenan",
+            15: "Performance Realis",
+            16: "Performance Realis",
+            17: "Performance Realis",
+            18: "Before Pentas",
+            19: "Perform Alun Alun Banjarnegara",
+            20: "Prepare Makeup",
+            21: "Proses Reading Naskah",
+            22: "Awarding Film Banjarnegara Movie",
+            23: "Raung Silago Pentas Keliling",
+            24: "Gladi Bersih Demo PKKMB",
+            25: "Latihan Rutin",
+            26: "Kebersamaan",
+            27: "Selaras",
+            28: "Dokumentasi Musyawarah Anggota",
+            29: "HTD 2025",
+            30: "HTD 2025",
+            31: "PKKMB 2025",
+            32: "Rapat Pengurus Mugiwaras",
+            33: "Latihan Rutin",
+            34: "Temu Perdana 2025",
+            35: "Dibalik Panggung",
+            36: "HTD 2025",
+            37: "HTD 2025",
+            38: "HTD 2024",
+            39: "Persiapan Makeup",
+            40: "Pentas Bulan Bahasa",
+            41: "Persiapan Pentas",
+            42: "Musikalisasi",
+            43: "Penampilan Tari",
+            44: "Musikalisasi",
+            45: "Peringatan Hari Pahlawan",
+            46: "Peringatan Hari Pahlawan",
+ 
+        };
+
+        const mainGalleryGrid = document.getElementById('mainGalleryGrid');
+        const lightboxGrid = document.getElementById('dynamicLightboxGrid');
+        const loadMoreBtn = document.getElementById('btnLoadMore');
+        const loadMoreContainer = document.getElementById('btnLoadMoreContainer');
+        
+        let currentItems = 3; // Jumlah foto yang ditampilkan di awal
+
+        // Fungsi fallback ekstensi otomatis
+        function tryNextExtension(imgElement, index, extIndex) {
+            if (extIndex < supportedExtensions.length) {
+                imgElement.src = `images/galeri/galeri${index}.${supportedExtensions[extIndex]}`;
+                imgElement.onerror = () => tryNextExtension(imgElement, index, extIndex + 1);
+            } else {
+                // Jika file tidak ditemukan sama sekali dari galeri1 - galeri50, sembunyikan item
+                const parentItem = imgElement.closest('.gallery-item') || imgElement.closest('.lightbox-item');
+                if (parentItem) parentItem.remove();
+            }
+        }
+
+        // Render otomatis 50 Galeri Items & Lightbox Items
+        for (let i = 1; i <= totalGalleryCount; i++) {
+            const caption = customCaptions[i] || `Dokumentasi Lakon ${i}`;
+            const initialSrc = `images/galeri/galeri${i}.${supportedExtensions[0]}`;
+
+            // 1. Buat elemen item galeri utama
+            const galleryItem = document.createElement('div');
+            galleryItem.className = 'gallery-item';
+            galleryItem.setAttribute('onclick', 'openLightbox()');
+            if (i > currentItems) {
+                galleryItem.style.display = 'none';
+            }
+
+            galleryItem.innerHTML = `
+                <div class="gallery-image-wrapper">
+                    <img src="${initialSrc}" alt="${caption}" class="gallery-img" />
+                    <div class="gallery-overlay"><span>${caption}</span></div>
+                </div>
+            `;
+            mainGalleryGrid.appendChild(galleryItem);
+
+            // Handler error ekstensi untuk item galeri utama
+            const mainImg = galleryItem.querySelector('img');
+            mainImg.onerror = () => tryNextExtension(mainImg, i, 1);
+
+            // 2. Buat elemen lightbox modal
+            const lightboxItem = document.createElement('div');
+            lightboxItem.className = 'lightbox-item';
+            lightboxItem.innerHTML = `
+                <img src="${initialSrc}" alt="${caption}" />
+                <div class="lightbox-caption">${caption}</div>
+            `;
+            lightboxGrid.appendChild(lightboxItem);
+
+            // Handler error ekstensi untuk item lightbox
+            const lightboxImg = lightboxItem.querySelector('img');
+            lightboxImg.onerror = () => tryNextExtension(lightboxImg, i, 1);
+        }
+
+        // Logic Tombol "Lihat Selengkapnya"
+        if (loadMoreBtn) {
+            loadMoreBtn.addEventListener('click', () => {
+                const allGalleryItems = mainGalleryGrid.querySelectorAll('.gallery-item');
+                let nextItems = currentItems + 6; // Menambah 6 foto setiap klik
+
+                allGalleryItems.forEach((item, index) => {
+                    if (index >= currentItems && index < nextItems) {
+                        item.style.display = 'block';
+                        item.style.animation = 'fadeInGallery 0.6s ease forwards';
+                    }
+                });
+
+                currentItems = nextItems;
+                if (currentItems >= allGalleryItems.length) {
+                    loadMoreContainer.style.display = 'none';
+                }
+            });
+        }
+
+        // Kontrol Lightbox Pop-up
+        const lightbox = document.getElementById('lightboxOverlay');
+        function openLightbox() {
+            lightbox.classList.add('active');
+            document.body.style.overflow = 'hidden';
+        }
+
+        function closeLightbox(e) {
+            if (e && e.target !== e.currentTarget && !e.target.closest('.lightbox-close')) return;
+            lightbox.classList.remove('active');
+            document.body.style.overflow = 'auto';
+        }
+
+        document.addEventListener('keydown', function(e) {
+            if (e.key === 'Escape' && lightbox.classList.contains('active')) {
+                closeLightbox();
+            }
+        });
+    </script>
+</body>
+</html>
